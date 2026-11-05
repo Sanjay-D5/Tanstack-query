@@ -1,8 +1,7 @@
-# React + Vite
+# TanStack Query Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 📚 **Learning project.** Practice app comparing manual data fetching with TanStack Query.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **What I learned:** `useQuery` with `staleTime`, `gcTime` and `placeholderData` for pagination; `useMutation` with `setQueryData` to update the cache; and infinite scroll with `useInfiniteQuery` and `react-intersection-observer`.
+- **Built with:** React, Vite, TanStack Query + Devtools, Axios, React Router.
+- **Run it:** `npm install && npm run dev`
